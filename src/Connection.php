@@ -2,7 +2,7 @@
 
 namespace Zhiru\LaravelMoodle;
 
-use Assert\Assertion;
+//use Assert\Assertion;
 
 /**
  * Class Connection
@@ -37,7 +37,7 @@ class Connection
      */
     protected function setUrl($url)
     {
-        Assertion::url($url);
+        //Assertion::url($url);
         $this->url = trim($url, '/');
     }
 
