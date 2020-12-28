@@ -4,7 +4,7 @@ namespace Zhiru\LaravelMoodle\Clients\Adapters;
 
 use Zhiru\LaravelMoodle\Clients\BaseAdapter;
 use Zhiru\LaravelMoodle\Connection;
-use Assert\Assertion;
+//use Assert\Assertion;
 use GuzzleHttp\Client as HttpClient;
 
 /**
@@ -98,7 +98,7 @@ class RestClient extends BaseAdapter
      */
     protected function setResponseFormat($format)
     {
-        Assertion::inArray($format, [self::RESPONSE_FORMAT_JSON, self::RESPONSE_FORMAT_XML]);
+        //Assertion::inArray($format, [self::RESPONSE_FORMAT_JSON, self::RESPONSE_FORMAT_XML]);
         $this->responseFormat = $format;
     }
 
