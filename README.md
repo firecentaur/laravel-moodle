@@ -21,7 +21,7 @@
 ## Install
 To install through Composer, by run the following command:
 ```
-$ composer require zhiru/laravel-moodle
+$ composer require firecentaur/laravel-moodle
 ```
 The package will automatically register a service provider and alias.
 
