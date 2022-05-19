@@ -34,5 +34,24 @@
         "psr-4": {
             "Zhiru\\LaravelMoodle\\Tests\\": "tests/"
         }
+    },
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "firecentaur/laravel-moodle",
+            "version": "dev-master",
+            "source": {
+                "url": "git://github.com/firecentaur/laravel-moodle.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "firecentaur\\laravel-moodle" : "src"
+                }
+            }
+        }
     }
+],
 }
